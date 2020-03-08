@@ -18,7 +18,7 @@ public class ShipmentTypeExcleView extends AbstractXlsxView{
 	@Override
 	protected void buildExcelDocument(Map<String, Object> model, Workbook workbook, HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
-		System.out.println("hi");
+		
 		Sheet s=workbook.createSheet("ShipmentType");
 		 setHeader(s);
 		 @SuppressWarnings("unchecked")
